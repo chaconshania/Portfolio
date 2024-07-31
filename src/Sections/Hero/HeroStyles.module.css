@@ -9,6 +9,7 @@
 
   img {
     border-radius: 50%;
+    max-width: 350px;
   }
 
   .hero {
@@ -62,7 +63,6 @@
 }
 .description {
   max-width: 40ch;
-  font-weight: 300;
 }
 .info {
   display: flex;

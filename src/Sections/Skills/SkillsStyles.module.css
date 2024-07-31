@@ -7,6 +7,7 @@
 
   p {
     max-width: 40ch;
+    margin-top: 20px;
   }
   span {
     display: flex;
@@ -14,7 +15,7 @@
     gap: 5px;
   }
   img {
-    max-width: 350px;
+    max-width: 200px;
     border-radius: 50%;
   }
 }
@@ -25,8 +26,9 @@
     align-items: center;
     justify-content: space-evenly;
 
-    p {
-      margin-top: 20px;
+    img {
+      max-width: 350px;
+      width: 350px;
     }
   }
 }
