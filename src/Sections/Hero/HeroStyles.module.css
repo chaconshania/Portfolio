@@ -8,10 +8,8 @@
   min-height: 500px;
 
   img {
-    border-radius: 50%;
     max-width: 350px;
   }
-
   .hero {
     max-width: 200px;
   }
@@ -28,6 +26,7 @@
       }
     }
   }
+
   a {
     width: fit-content;
     align-self: center;

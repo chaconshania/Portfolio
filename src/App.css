@@ -17,6 +17,7 @@
   --form-text-color: #fff;
   --footer-text-color: #bbb;
 }
+
 body {
   background-color: var(--background-color);
   display: flex;
@@ -41,9 +42,8 @@ p {
 }
 h1,
 h2,
-h3,
-p {
-  font-family: "Roboto", sans-serif;
+h3 {
+  font-family: "Josefin Sans", sans-serif;
 }
 h1,
 h2 {
@@ -54,11 +54,12 @@ h3 {
   font-size: 22px;
 }
 h1 {
-  font-size: 32px;
+  font-size: 30px;
 }
 p {
+  font-family: "Josefin Slab", sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
 }
 .section {
   margin-bottom: 30px;
@@ -72,7 +73,7 @@ p {
     gap: 100px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 100px;
   }
   h2,
   h3 {
@@ -90,7 +91,7 @@ p {
     gap: 200px;
   }
   h1 {
-    font-size: 40px;
+    font-size: 150px;
   }
   .sectionTitle {
     margin-bottom: 75px;
