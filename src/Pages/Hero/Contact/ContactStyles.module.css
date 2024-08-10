@@ -1,7 +1,11 @@
 .container {
-  display: felx;
+  display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
+  padding-top: 60px;
+  height: 100dvh;
+  min-height: 500px;
 }
 form {
   display: flex;

@@ -1,8 +1,8 @@
 import styles from "./ProjectsStyles.module.css";
-import webpage from "../../assets/webpage.png";
-import dreamscape from "../../assets/dreamscape.png";
-import ProjectCard from "../../common/ProjectCard";
-import weatherApp from "../../assets/weather-app.png";
+import webpage from "../../../assets/webpage.png";
+import dreamscape from "../../../assets/dreamscape.png";
+import ProjectCard from "../../../common/ProjectCard";
+import weatherApp from "../../../assets/weather-app.png";
 
 function Projects() {
   return (

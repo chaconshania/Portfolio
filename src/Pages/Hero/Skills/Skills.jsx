@@ -4,9 +4,8 @@ import aboutImg from "../../assets/about_me.png";
 function Skills() {
   return (
     <section id="skills" className={styles.container}>
-      <h1 className="sectionTitle">About Me</h1>
       <div className="About-me-description">
-        <img src={aboutImg} alt="A picture of me holding ice cream" />
+        <h1 className="sectionTitle">About Me</h1>
         <p className="description">
           Based in CT, I am currently a student at the University of Connecticut
           for a BFA in Digital Media Design, with a concentration in
@@ -17,6 +16,7 @@ function Skills() {
           pictures of my friends and any adorable animal!
         </p>
       </div>
+      <img src={aboutImg} alt="A picture of me holding ice cream" />
     </section>
   );
 }

@@ -1,17 +1,17 @@
-import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img.png";
-import sun from "../../assets/sun.svg";
-import moon from "../../assets/moon.svg";
-import githubLight from "../../assets/github-light.svg";
-import githubDark from "../../assets/github-dark.svg";
-import linkedinLight from "../../assets/linkedin-light.svg";
-import linkedinDark from "../../assets/linkedin-dark.svg";
-import profileLight from "../../assets/hero-img-light.png";
-import profileDark from "../../assets/hero-img-dark.png";
-import CV from "../../assets/shania-chacon-resume.pdf";
-import { useTheme } from "../../common/ThemeContext";
+import styles from "./IntroStyles.module.css";
+import heroImg from "../../../assets/hero-img.png";
+import sun from "../../../assets/sun.svg";
+import moon from "../../../assets/moon.svg";
+import githubLight from "../../../assets/github-light.svg";
+import githubDark from "../../../assets/github-dark.svg";
+import linkedinLight from "../../../assets/linkedin-light.svg";
+import linkedinDark from "../../../assets/linkedin-dark.svg";
+import profileLight from "../../../assets/hero-img-light.png";
+import profileDark from "../../../assets/hero-img-dark.png";
+import CV from "../../../assets/shania-chacon-resume.pdf";
+import { useTheme } from "../../../common/ThemeContext";
 
-function Hero() {
+function Intro() {
   const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === "light" ? sun : moon;
@@ -69,4 +69,4 @@ function Hero() {
   */
 }
 
-export default Hero;
+export default Intro;
