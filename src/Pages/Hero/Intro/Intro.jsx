@@ -36,6 +36,7 @@ function Intro() {
         />
       </div>
       <div className={styles.info}>
+        <span className={styles.circle}></span>
         <h1>
           Shania <br />
           Chacon

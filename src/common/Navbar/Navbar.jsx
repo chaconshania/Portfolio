@@ -22,9 +22,6 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
               <a className="nav-link" href="#">
-                Work?
-              </a>
-              <a className="nav-link" href="#">
                 Projects
               </a>
               <a className="nav-link" href="#">

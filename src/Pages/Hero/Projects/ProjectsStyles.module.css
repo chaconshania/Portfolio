@@ -20,6 +20,9 @@
   a:hover {
     transform: scale(1.05);
   }
+  h3 {
+    padding-top: 15px;
+  }
 }
 .projectsContainer {
   display: flex;

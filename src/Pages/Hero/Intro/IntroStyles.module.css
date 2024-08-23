@@ -69,6 +69,18 @@
   align-items: center;
   gap: 20px;
 }
+/*
+.circle {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  border-radius: 50%;
+  top: 320px;
+  left: 280px;
+  z-index: -1;
+  background-color: #000;
+} 
+  */
 
 /* Media queries */
 @media (width >= 800px) {
