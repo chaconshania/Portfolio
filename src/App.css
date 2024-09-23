@@ -9,6 +9,7 @@
   --navbar-bg-color: #151515;
 
   --navbar-txt-color: #fff;
+  --border-color: #151515;
 }
 
 [data-theme="dark"] {
@@ -21,6 +22,8 @@
   --footer-text-color: #bbb;
   --navbar-bg-color: #fff;
   --navbar-txt-color: #121212;
+
+  --border-color: #fff;
 }
 
 body {
@@ -56,7 +59,7 @@ h1 {
   font-size: 30px;
 }
 p {
-  font-family: "Josefin Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
@@ -90,7 +93,7 @@ p {
     gap: 200px;
   }
   h1 {
-    font-size: 150px;
+    font-size: 100px;
   }
   .sectionTitle {
     margin-bottom: 75px;

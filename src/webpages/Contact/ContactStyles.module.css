@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  height: 100dvh;
+  min-height: 500px;
+
+  h1 {
+    color: var(--text-color);
+  }
+  p {
+    color: var(--text-color);
+  }
+  .contact {
+    max-width: 200px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .card {
+    padding: 20px;
+    border: 1px solid;
+    border-color: var(--border-color);
+  }
+  .contactHeading {
+    max-width: 40ch;
+  }
+}
