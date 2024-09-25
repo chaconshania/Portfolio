@@ -16,7 +16,6 @@ function Bio() {
       <div className={styles.info}>
         <span className={styles.circle}></span>
         <h1>About Me</h1>
-
         <p className={styles.description}>
           Based in CT, I am currently a student at the University of Connecticut
           for a BFA in Digital Media Design, with a concentration in
