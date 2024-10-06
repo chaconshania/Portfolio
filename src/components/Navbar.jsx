@@ -29,9 +29,6 @@ const Navbar = () => {
               <Link className={"link-styles px-2"} to="/about">
                 About
               </Link>
-              <Link className={"link-styles px-2"} to="/contact">
-                Contact
-              </Link>
             </div>
           </div>
         </div>
