@@ -17,7 +17,7 @@ function Projects() {
           src={luminate}
           h6="Case study"
           h3="Luminate: an app to help seasonal depression"
-          link="https://scartswestchester.framer.website/"
+          link="https://scluminate.framer.website/"
           button="View work"
         />
         <Project
