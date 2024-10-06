@@ -5,6 +5,7 @@
   width: 300px;
   display: flex;
   flex-direction: column;
+
   border: 3px solid var(--text-color);
   img {
     border-radius: 40px 40px 5px 5px;
@@ -40,9 +41,9 @@ a:visited {
 }
 @media (width >= 800px) {
   .projectCard {
-    width: 400px;
+    width: 300px;
     h3 {
-      font-size: 35px;
+      font-size: 25px;
     }
     p {
       font-size: 20px;

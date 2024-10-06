@@ -11,3 +11,9 @@
     flex-wrap: wrap;
   }
 }
+@media (width >= 1400px) {
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

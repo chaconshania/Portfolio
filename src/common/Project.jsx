@@ -1,5 +1,5 @@
 import styles from "./ProjectStyles.module.css";
-function Project({ src, link, h3, p, h6 }) {
+function Project({ src, link, h3, p, h6, button }) {
   return (
     <div className={styles.projectCard}>
       <img src={src} alt="Project visual" />
@@ -8,7 +8,7 @@ function Project({ src, link, h3, p, h6 }) {
         <h3>{h3}</h3>
         <p>{p}</p>
         <a href={link} target="_blank" rel="noopener noreferrer">
-          <button>View Work</button>
+          <button>{button}</button>
         </a>
       </div>
     </div>
