@@ -1,7 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
 import webpage from "../../../assets/appine.png";
 import dreamscape from "../../../assets/dreamscape.png";
-import ProjectCard from "../../../common/ProjectCard";
+
 import weatherApp from "../../../assets/weather-app.png";
 import luminate from "../../../assets/luminate-mockup-light.jpg";
 import Project from "../../../common/Project";
