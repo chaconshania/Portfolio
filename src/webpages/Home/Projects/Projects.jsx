@@ -11,7 +11,7 @@ import Locked from "../../../assets/locked.jpg";
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
-      <h1 className="sectionTitle">What I've worked on...</h1>
+      <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projects}>
         <Project
           src={luminate}
