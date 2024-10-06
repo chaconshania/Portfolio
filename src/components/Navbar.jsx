@@ -5,7 +5,7 @@ import styles from "./NavbarStyles.module.css";
 const Navbar = () => {
   return (
     <section id="navbar" className={styles.container}>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand px-2" to="/">
             S C

@@ -1,0 +1,56 @@
+.projectCard {
+  background: var(--background-color);
+  border-radius: 30px;
+  margin: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid var(--text-color);
+  img {
+    border-radius: 40px 40px 5px 5px;
+    object-fit: cover;
+    padding: 20px 20px 0 20px;
+  }
+  button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    background: var(--btn-color);
+    color: var(--btn-text-color);
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+  }
+
+  .cardBody {
+    padding: 20px;
+  }
+  h6 {
+    margin-bottom: 15px;
+    color: var(--text-color);
+  }
+  h3 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+@media (width >= 800px) {
+  .projectCard {
+    width: 400px;
+  }
+}
+@media (width >= 1400px) {
+  .projectCard {
+    width: 600px;
+  }
+}
