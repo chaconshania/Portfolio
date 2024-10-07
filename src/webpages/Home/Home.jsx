@@ -11,6 +11,8 @@ import profileLight from "../../assets/hero-img-light.png";
 import profileDark from "../../assets/hero-img-dark.png";
 import CV from "../../assets/shania-chacon-resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
+import behanceLight from "../../assets/behance-light.png";
+import behanceDark from "../../assets/behance-dark.jpg";
 
 function Home() {
   const { theme, toggleTheme } = useTheme();
@@ -19,6 +21,7 @@ function Home() {
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
   const profileImg = theme === "light" ? profileLight : profileDark;
+  const behanceIcon = theme === "light" ? behanceLight : behanceDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -59,6 +62,9 @@ function Home() {
             target="_blank"
           >
             <img src={linkedinIcon} alt="Linkedin icon" />
+          </a>
+          <a href="https://www.behance.net/shaniachacon" target="_blank">
+            <img src={behanceIcon} alt="Behance icon" />
           </a>
         </span>
       </div>
