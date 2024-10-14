@@ -12,7 +12,7 @@ function Projects() {
         <Project
           src={luminate}
           h6="Case study"
-          h3="Luminate: an app to help seasonal depression"
+          h3="Luminate: an app to help lessen seasonal depression"
           link="https://scluminate.framer.website/"
           button="View work"
         />
