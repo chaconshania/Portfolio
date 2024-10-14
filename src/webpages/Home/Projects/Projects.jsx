@@ -1,8 +1,4 @@
 import styles from "./ProjectsStyles.module.css";
-import webpage from "../../../assets/appine.png";
-import dreamscape from "../../../assets/dreamscape.png";
-
-import weatherApp from "../../../assets/weather-app.png";
 import luminate from "../../../assets/luminate-mockup-light.jpg";
 import Project from "../../../common/Project";
 import ArtsW from "../../../assets/artswestchester-logo.jpg";
@@ -31,7 +27,8 @@ function Projects() {
           src={Locked}
           h6="Case study"
           h3="InnerSpace: transforming mental wellness through XR"
-          button="Locked"
+          link="https://innerspacexr.framer.website/"
+          button="View work"
         />
       </div>
     </section>
