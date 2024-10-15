@@ -26,7 +26,7 @@ function Projects() {
         <Project
           src={Locked}
           h6="Case study"
-          h3="InnerSpace: transforming mental wellness through XR"
+          h3="Oasis XR: transforming mental wellness through XR"
           link="https://oasisxr.framer.website/"
           button="View work"
         />
