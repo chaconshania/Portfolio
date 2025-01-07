@@ -4,9 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  height: 110vh;
-  min-height: 500px;
-
+  min-height: 110vh;
   img {
     max-width: 350px;
   }
