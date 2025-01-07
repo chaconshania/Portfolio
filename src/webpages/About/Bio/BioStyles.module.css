@@ -82,7 +82,7 @@
   */
 
 /* Media queries */
-@media (width >= 400px) {
+@media (width >= 300px) {
   .container {
     padding: 15px;
   }
