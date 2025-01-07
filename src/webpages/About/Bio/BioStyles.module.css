@@ -84,7 +84,7 @@
 /* Media queries */
 @media (width >= 400px) {
   .container {
-    text-align: center;
+    padding: 15px;
   }
   .description {
     max-width: 40ch;
