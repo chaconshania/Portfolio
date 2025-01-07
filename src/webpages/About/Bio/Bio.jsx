@@ -17,13 +17,18 @@ function Bio() {
         <span className={styles.circle}></span>
         <h1>About Me</h1>
         <p className={styles.description}>
-          Based in CT, I am currently a student at the University of Connecticut
-          for a BFA in Digital Media Design, with a concentration in
-          Web/Interactive Media Design. I am passionate about web development
-          and proficient in front-end technologies such as HTML5, CSS,
-          JavaScript, React, and Bootstrap. <br /> <br />I love to travel and
-          draw whatever comes in mind, and I take every opportunity to take
-          pictures of my friends and any adorable animal!
+          Hi, I'm Shania Chacon, a passionate UX/UI Designer with a love for
+          creating clean, minimalistic interfaces that deliver seamless user
+          experiences. <br /> <br />
+          With a background in Web/Interactive Media Design and hands-on
+          experience in user research, prototyping, and front-end development, I
+          bridge the gap between aesthetics and functionality. My approach
+          combines design thinking, user empathy, and data-driven insights to
+          craft meaningful digital experiences. <br /> <br />
+          Whether it’s building intuitive websites, interactive apps, or
+          impactful design solutions, I’m dedicated to solving real-world
+          problems through design. Explore my projects to see how I bring ideas
+          to life through thoughtful design and innovative problem-solving.
         </p>
       </div>
     </section>

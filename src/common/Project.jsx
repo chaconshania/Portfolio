@@ -1,4 +1,5 @@
 import styles from "./ProjectStyles.module.css";
+import { Link } from "react-router-dom";
 function Project({ src, link, h3, p, h6, button }) {
   return (
     <div className={styles.projectCard}>
@@ -7,9 +8,9 @@ function Project({ src, link, h3, p, h6, button }) {
         <h6>{h6}</h6>
         <h3>{h3}</h3>
         <p>{p}</p>
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <Link to={link}>
           <button>{button}</button>
-        </a>
+        </Link>
       </div>
     </div>
   );

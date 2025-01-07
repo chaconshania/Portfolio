@@ -1,9 +1,9 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   gap: 20px;
-  text-align: center;
   height: 110vh;
   min-height: 500px;
 
@@ -61,12 +61,11 @@
   cursor: pointer;
 }
 .description {
-  max-width: 40ch;
+  max-width: 60ch;
 }
 .info {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 20px;
 }
 /*
@@ -83,23 +82,43 @@
   */
 
 /* Media queries */
+@media (width >= 400px) {
+  .container {
+    text-align: center;
+  }
+  .description {
+    max-width: 40ch;
+  }
+}
 @media (width >= 800px) {
   .container {
+    text-align: left;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
+    padding: 0 10px 0 10px;
 
     .hero {
       max-width: 350px;
       width: 350px;
     }
+    .description {
+      max-width: 40ch;
+    }
+    h1 {
+      font-size: 60px;
+    }
   }
 }
 @media (width >= 1400px) {
   .container {
+    text-align: left;
     .hero {
       max-width: 400px;
       width: 400px;
+    }
+    .description {
+      max-width: 60ch;
     }
   }
 }

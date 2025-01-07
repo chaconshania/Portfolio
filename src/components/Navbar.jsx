@@ -23,14 +23,17 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-              <Link className={"link-styles px-2"} to="/">
-                UX CASE STUDIES
+              <Link className={"link-styles px-2"} to="/casestudies">
+                WORK
               </Link>
               <Link className={"link-styles px-2"} to="/about">
-                GRAPHIC DESIGN
+                SANDBOX
               </Link>
               <Link className={"link-styles px-2"} to="/about">
                 ABOUT
+              </Link>
+              <Link className={"link-styles px-2"} to="/about">
+                RESUME
               </Link>
             </div>
           </div>
