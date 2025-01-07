@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand px-2" to="/">
-            S C
+            SHANIA CHACON
           </Link>
           <button
             className="navbar-toggler"
@@ -24,10 +24,13 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
               <Link className={"link-styles px-2"} to="/">
-                Home
+                UX CASE STUDIES
               </Link>
               <Link className={"link-styles px-2"} to="/about">
-                About
+                GRAPHIC DESIGN
+              </Link>
+              <Link className={"link-styles px-2"} to="/about">
+                ABOUT
               </Link>
             </div>
           </div>
