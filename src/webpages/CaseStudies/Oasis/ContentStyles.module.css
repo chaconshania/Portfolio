@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  height: 110vh;
+  min-height: 500px;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: left;
+  text-align: left;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (width >= 800px) {
+  .container {
+  }
+}
+@media (width >= 1400px) {
+  .container {
+  }
+}
